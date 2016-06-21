@@ -1,0 +1,159 @@
+img {  
+    
+    height: auto;
+    opacity: 0.9;
+    margin-left: 0px;
+    margin-top: 0px;  
+    z-index: -1;    
+}
+
+.center {
+    position: relative;
+    margin-top: -23%;
+    width: 100%;
+    text-align: center;
+    font-size: 64px;
+    font-family: Helvetica;
+    color: white;
+}
+
+.center1 {
+    position: relative;
+    left: 0;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    font-family: Helvetica;
+    color: black;
+}
+
+.box {
+    position: relative;
+    width: 80%;
+	height: 30%;
+	border-radius: 4px;
+	background-color: #ffffff;
+	border: solid 1px #e5e5e5;
+    box-shadow: 2px 2px 2px #e5e5e5;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%; 
+    padding: 20px; 
+}
+
+.paragraphtitle {
+	width: auto;
+    margin: auto;
+	height: auto;
+	font-family: Helvetica;
+	font-size: 36px;
+	color: #373a3c;
+	color: var(--charcoal-grey);
+    text-align: center;
+    padding-bottom: 2%;
+   
+}
+
+.bodyparagraph {
+	width: 70%;
+	height: auto;
+    margin: auto;
+	font-family: Helvetica;
+	font-size: 18px;
+	color: #373a3c;
+	color: var(--charcoal-grey);
+    padding-top: 1%;
+    margin-bottom: 3%;
+               
+}
+
+
+#card {
+    position:relative;
+    width: auto;
+	height: 379px;
+	border-radius: 4px;
+	background-color: #ffffff;
+	border: solid 1px #e5e5e5;
+    margin-top: 10%;
+    box-shadow: 2px 2px 2px #e5e5e5;
+    min-width: 240px;
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.second-forum-conomi {
+     position: relative;
+	width: 278px;
+	height: 44px;
+	font-family: Helvetica;
+	font-size: 18px;
+	line-height: 1.1;
+	color: #ffffff;
+	text-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+    margin-top: -50%;
+    margin-left: 5%;
+}
+
+.start-may-27-730 {
+    position: relative;
+	width: 80%;
+	height: 92.2px;
+	font-family: Helvetica;
+	font-size: 16px;
+	line-height: 1.1;
+	color: #373a3c;
+	color: var(--charcoal-grey);
+    margin-top: 40%;
+    margin-left: 10%;
+}
+
+.b-g {
+    position: relative;   
+	border-radius: 4px;
+    text-align: center;
+    font-size: 16px;  
+    padding-top: 5%;
+}
+
+@media (max-width: 768px) {
+    .bodyparagraph {
+        font-size: 12px;
+    }
+    .paragraphtitle{
+        font-size: 25px;
+    }
+    .start-may-27-730{
+        font-size: 12px;
+    }
+    .center{
+        font-size: 48px;
+    }
+    .center1{
+        font-size: 25px;
+    }
+    
+}
+
+@media (max-width:992px) and (min-width:768px) {
+    .bodyparagraph {
+        font-size: 16px;
+    }
+    .paragraphtitle{
+        font-size: 30px;
+    }
+    .start-may-27-730{
+        font-size: 16px;
+    }
+    .center{
+        font-size: 55px;
+    }
+    .center1{
+        font-size: 30px;
+    }
+    
+} 
