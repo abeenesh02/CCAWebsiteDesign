@@ -559,3 +559,8 @@ th {
     border-color:  #ffd65a;
     background: transparent;
 }
+
+p {
+    text-indent: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
