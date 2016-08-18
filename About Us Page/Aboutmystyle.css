@@ -310,7 +310,7 @@ p {
   padding-top: 5px;
   padding-right: 25px;
   float: left;
-  width: 250px;
+  width: 22%;
   margin-right: 20px;
   min-height: 150px;
   border-radius: 2px;
@@ -331,7 +331,7 @@ p {
 .form {
   padding: 10px 0px 10px 10px;
   text-align: left;
-  width: 550px;
+  width: 49%;
   height: 320px;
   background: white;
   float: right;
@@ -523,11 +523,7 @@ th {
     }
 }
 
-@media (min-width: 1100px) {
-   .collapse {
-       display: none !important ;
-   }
-}
+
 
 #buttons{
     border-style: solid;
